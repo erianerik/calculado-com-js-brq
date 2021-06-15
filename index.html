@@ -11,33 +11,36 @@
 </head>
 
 <body>
-    <main>
-        <form action="">
-            <fieldset>
-                <label></label>
-                <output name="result"></output>
+    <main class="conteudo-principal">
+
+        <h2 class="conteudo-principal__titulo">Calculadora com JavaScript</h2>
+
+        <form class="conteudo-principal__calculadora" action="">
+            <fieldset class="calculadora__cabecalho">
+                <input type="text" class="cabecalho__conta" value="30 * 8" readonly>
+                <label class="cabecalho__resultado"> 240 </label>
             </fieldset>
-            <fieldset>
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
-                <input type="button" value="">
+            <fieldset class="calculadora__corpo">
+                <input type="button" class="botao-calculadora botao-calculadora--outras-operacoes" value="AC">
+                <input type="button" class="botao-calculadora botao-calculadora--outras-operacoes" value="+/-">
+                <input type="button" class="botao-calculadora botao-calculadora--outras-operacoes" value="%">
+                <input type="button" class="botao-calculadora botao-calculadora--operacao" value="/">
+                <input type="button" class="botao-calculadora" value="7">
+                <input type="button" class="botao-calculadora" value="8">
+                <input type="button" class="botao-calculadora" value="9">
+                <input type="button" class="botao-calculadora botao-calculadora--operacao" value="x">
+                <input type="button" class="botao-calculadora" value="4">
+                <input type="button" class="botao-calculadora" value="5">
+                <input type="button" class="botao-calculadora" value="6">
+                <input type="button" class="botao-calculadora botao-calculadora--operacao" value="-">
+                <input type="button" class="botao-calculadora" value="1">
+                <input type="button" class="botao-calculadora" value="2">
+                <input type="button" class="botao-calculadora" value="3">
+                <input type="button" class="botao-calculadora botao-calculadora--operacao" value="+">
+                <input type="button" class="botao-calculadora" value="&#10226;">
+                <input type="button" class="botao-calculadora" value="0">
+                <input type="button" class="botao-calculadora" value=".">
+                <input type="button" class="botao-calculadora botao-calculadora--operacao" value="=">
             </fieldset>
         </form>
     </main>
