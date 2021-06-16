@@ -6,6 +6,13 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background: repeating-linear-gradient(
+        45deg,
+        #363E6A,
+        #363E6A 40px,
+        #2D3458 40px,
+        #2D3458 80px
+    );
 }
 
 label, input, fieldset {
@@ -39,8 +46,8 @@ input:focus {
 }
 
 .conteudo-principal__titulo {
-    font-size: 2rem;
-    color: #22252D;
+    font-size: 1.69rem;
+    color: #26D1B3;
     font-weight: 800;
     margin: 2rem auto;
 }
